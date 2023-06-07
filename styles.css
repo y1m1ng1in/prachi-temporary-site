@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #080808;
+  --white: #fefefe;
+  --gray: #565656;
+  --teal: #006060;
+  --violetred: #a2106d;
+  --orange: #ffa500;
+  --text-color: #080808;
+  --background-color: #fefefe;
+  --accent-color: #a2106d;
+  --light-gray-1: rgb(189, 189, 189);
+  --light-gray-2: #dfdfdf;
+  --light-gray-3: #ffffff;
+  --light-gray-4: #dadada;
+}
+
+header {
+  top: 0;
+}
+
+.title-box {
+  width: 100%;
+  margin: 0px;
+  background-color: var(--light-gray-1);
+  color: var(--black);
+}
+
+body {
+  padding-top: 80px;
+  background-color: var(--light-gray-2);
+}
+
+.heading {
+  text-align: center;
+  text-decoration: underline;
+}
+.contact-logo {
+  width: 70px;
+  height: 50px;
+}
+
+.sections {
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+.nav-link {
+  color: var(--light-gray-3);
+}
+
+.nav-link:hover {
+  color: var(--black);
+}
+
+.custom-button.btn-primary {
+  background-color: var(--black);
+}
+
+.project-title {
+  color: var(--black);
+}
+
+.card {
+  background-color: var(--light-gray-4);
+}
+
+.picture {
+  border-radius: 10%;
+  filter: grayscale(30%);
+}
+
+.title-URL {
+  color: var(--black);
+}
+
+.logos {
+  margin-top: 25%;
+}
